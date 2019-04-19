@@ -1,0 +1,151 @@
+/***** BASE STYLES *****/
+body {
+  background-color: #FFF8F7;
+  color: #AC625A;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 auto;
+  margin-top: -35px;
+  padding: 0;
+}
+
+h3 {
+  color: #90B698;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 32px;
+}
+
+#about, #work, #contact {
+  height: 600px
+}
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+.half-width {
+  float: left;
+  width: 600px;
+}
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+  background: url(../img/hero.jpg);
+  height: 600px;
+  margin: 0 auto;
+  padding: 50px 120px 0;
+}
+
+header h1 {
+  color: #90B698;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+header h2 {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 200;
+  padding-top: 75px;
+  width: 600px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul a {
+  color: #AC625A;
+  padding-left: 80px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/***** ABOUT *****/
+#about {
+  margin: 0 auto;
+  padding: 75px 120px;
+}
+
+#about p {
+  text-align: center;
+}
+
+#about img {
+  border: 5px solid #F1C4BF;
+  margin: 10px;
+  padding: 10px;
+}
+
+/***** WORK *****/
+#work {
+  background-color: #F1C4BF;
+  padding: 75px 120px;
+}
+
+#work h4, p {
+  padding: 0 20px;
+  text-align: center;
+}
+
+#work img {
+  padding: 10px 0;
+}
+
+
+/***** CONTACT AND MUSIC *****/
+
+#contact, #bands {
+  margin: 0 auto;
+  padding: 75px 120px 0;
+}
+
+#contact, #bands h4, p {
+  text-align: center;
+}
+
+#contact, #bands iframe {
+  padding-top: 16px;
+}
+
+#contact li {
+  list-style: none;
+  line-height: 48px;
+  padding-right: 35px;
+  text-align: center;
+}
+
+#contact a {
+  color: #AC625A;
+  text-decoration: none;
+}
+
+#contact img {
+  text-align: center;
+}
+
+/***** FOOTER *****/
+
+footer {
+  clear: both;
+  font-size: 16px;
+  text-align: center;
+}
